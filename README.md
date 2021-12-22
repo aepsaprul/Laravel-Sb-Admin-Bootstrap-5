@@ -1,5 +1,24 @@
 # Laravel UI (SB Admin Bootstrap 5)
 
+### Usage
+
+Clone code with 
+> $ git clone git@github.com:uwaiscode/Laravel-Sb-Admin-Bootstrap-5.git sbadmin
+
+> cd sbadmin
+
+> cp .env.example
+
+> composer install && npm install
+
+edit *.env* file to setting up with your database connection
+
+> php artisan migrate --seed
+
+> php artisan serve
+
+open http://localhost:8000 and if you valet user, open http://sbadmin.test
+
 
 ### Credits :
 
