@@ -17,7 +17,10 @@
                 </div>
                 @endif
 
-                {{ __('You are logged in!') }}
+                {{ __('You are logged in!') }},
+                <a href="https://github.com/sponsors/taylorotwell" target="_blank">
+                    Github
+                </a>.
             </div>
         </div>
     </div>
